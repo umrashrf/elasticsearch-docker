@@ -2,4 +2,4 @@
 #
 # A wrapper for `pytest` to handle the appropriate Testinfra arguments.
 
-./venv/bin/pytest --verbose --connection=docker --hosts=elasticsearch1 $@
+pytest --verbose --connection=docker --hosts=elasticsearch1 $@
